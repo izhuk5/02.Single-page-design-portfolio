@@ -1,0 +1,100 @@
+.discussing__section {
+    // width: 1110px;
+    border-radius: 0.625rem;
+    background-color: #030303;
+    margin: 0 auto;
+    margin-top: 5.5rem;
+    .discuss__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5rem;
+        color: white;
+        .discuss__content {
+            width: 37.5vw;
+            h1 {
+                font-size: 2.5rem;
+                line-height: 3.15rem;
+                font-weight: 700;
+            }
+            p {
+                font-size: 1.125rem;
+                line-height: 1.75rem;
+                font-weight: 500;
+                margin-top: 1.5rem;
+            }
+        }
+        button {
+            margin-left: 12.639vw;
+        }
+    }
+}
+
+@media (min-width:769px) and (max-width:1130px) {
+    .discussing__section {
+        .discuss__wrapper {
+            flex-direction: column;
+            text-align: center;
+            button {
+                margin-left: unset;
+            }
+            .discuss__content {
+                width: 49.313vw;
+                p {
+                    margin-top: unset;
+                    padding: 1.5rem 0;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:595px) and (max-width:768px) {
+    .discussing__section {
+        width: 89.844vw;
+        margin-top: 7.5rem;
+        .discuss__wrapper {
+            flex-direction: column;
+            text-align: center;
+            padding: 3.75rem 4.688rem;
+            button {
+                margin-left: unset;
+            }
+            .discuss__content {
+                width: 70.313vw;
+                p {
+                    margin-top: unset;
+                    padding: 1.5rem 0;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:320px) and (max-width:594.99px) {
+    .discussing__section {
+        width: 91.467vw;
+        margin-top: 6.25rem;
+        .discuss__wrapper {
+            flex-direction: column;
+            text-align: center;
+            padding: 3.063rem 1.5rem;
+            button {
+                margin-left: unset;
+            }
+            .discuss__content {
+                width: 78.667vw;
+                h1 {
+                    font-size: 1.625rem;
+                    line-height: 2.063rem;
+                }
+                p {
+                    font-size: 1rem;
+                    line-height: 1.625rem;
+                    margin-top: unset;
+                    padding: 1.5rem 0;
+                }
+            }
+        }
+    }
+}

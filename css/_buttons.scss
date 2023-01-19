@@ -1,0 +1,31 @@
+.btn {
+    width: 14.25rem;
+    height: 3.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background: #030303;
+    border-radius: 1.75rem;
+    cursor: pointer;
+    color: #FFF7F0;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-2 {
+    background: #EB7565;
+}
+
+.btn-hover1:hover {
+    background: #755CDE;
+}
+
+.btn-hover2:hover {
+    background: #F6A560;
+}
+
+@media (min-width:320px) and (max-width:594.99px) {
+    .btn {
+        width: 11rem;
+        height: 2.75rem;
+        font-size: 0.875rem;
+    }
+}

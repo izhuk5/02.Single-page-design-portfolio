@@ -1,0 +1,95 @@
+.consulting__section {
+    margin-top: 8.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .consulting__container {
+        width: 69.375rem;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        position: relative;
+        .image-wrapper {
+            width: 100%;
+            max-width: 27.813rem;
+            position: relative;
+            left: -7.75rem;
+            img {
+                width: 100%;
+            }
+        }
+        .consulting__content {
+            display: flex;
+            flex-direction: column;
+            max-width: 33.75rem;
+            h2 {
+                font-size: 2.5rem;
+                line-height: 3.125rem;
+                font-weight: 700;
+                color: #030303;
+            }
+            p {
+                font-size: 1.125rem;
+                line-height: 1.75rem;
+                color: #7A746E;
+                padding: 1.5rem 0 1.5rem 0;
+            }
+        }
+    }
+}
+
+@media (min-width:769px) and (max-width:1014px) {
+    .consulting__section {
+        .consulting__container {
+            .consulting__content {
+                max-width: 20.75rem;
+            }
+        }
+    }
+}
+
+@media (min-width:595px) and (max-width:768px) {
+    .consulting__section {
+        .consulting__container {
+            width: 69.375rem;
+            .image-wrapper {
+                max-width: 27.813rem;
+                left: -4rem;
+            }
+            .consulting__content {
+                max-width: 21.188rem;
+                h2 {
+                    font-size: 2rem;
+                    line-height: 2.625rem;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:320px) and (max-width:594.99px) {
+    .consulting__section {
+        margin-top: 6.25rem;
+        .consulting__container {
+            flex-direction: column;
+            .image-wrapper {
+                max-width: 18.75rem;
+                left: 0;
+            }
+            .consulting__content {
+                align-items: center;
+                text-align: center;
+                margin-top: 2.5rem;
+                h2 {
+                    font-size: 1.625rem;
+                    line-height: 2.047rem;
+                }
+                p {
+                    font-size: 1rem;
+                    line-height: 1.625rem;
+                }
+            }
+        }
+    }
+}

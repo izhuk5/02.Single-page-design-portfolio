@@ -1,0 +1,33 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Plus Jakarta Sans, sans-serif;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+	font-weight: inherit;
+	font-size: inherit;
+    overflow-wrap: break-word;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,body {
+    background: #FFF7F0;
+    position: relative;
+    min-width: 375px;
+    height: 100%;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+input, button, textarea, select {
+    font: inherit;
+  }

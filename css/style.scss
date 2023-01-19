@@ -1,0 +1,46 @@
+@import "_null";
+@import "_buttons";
+@import "_section__main";
+@import "_section__work";
+@import "_section__consulting";
+@import "_section__discuss";
+@import "_footer";
+
+.wrapper {
+    margin: 0 auto;
+    width: 77.083vw;
+}
+
+.header {
+    .navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2.125rem;
+        .logo {
+            width: 4rem;
+            height: 4rem;
+        }
+    }
+}
+
+@media (min-width:595px) and (max-width:768px) {
+    .wrapper {
+        width: 89.844vw; // 690px
+    }
+}
+
+@media (min-width:320px) and (max-width:594.99px) {
+    .wrapper {
+        width: 93.75vw;
+    }
+    .header {
+        .navigation {
+            margin-top: 1rem;
+            .logo {
+                width: 3rem;
+                height: 3rem;
+            }
+        }
+    }
+}
